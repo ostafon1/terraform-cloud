@@ -7,6 +7,6 @@ data "tfe_outputs" "vpc" {
   }
 }
 
-ouput all {
+output all {
     value = data.tfe_outputs.vpc.outputs
 }
